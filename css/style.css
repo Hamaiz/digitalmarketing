@@ -146,6 +146,22 @@ body {
     margin-bottom: 100px;
     margin-right: 0;
   }
+  .main_heading {
+    font-size: 22px !important;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .main {
+    height: calc(100% - 200px);
+  }
+  .main_img img {
+    width: 100%;
+    margin-top: -100px !important;
+  }
+  .main_img {
+    margin-right: -10px;
+  }
 }
 
 .main_heading {
